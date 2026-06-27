@@ -8,16 +8,14 @@ An interactive reference and toolkit for short-form video hooks — the first 1�
 
 | File | What it is |
 |---|---|
-| `Hook Guide.dc.html` | The source. Edit this. |
-| `Hook Guide.html` | The standalone, self-contained build — works offline, share/open anywhere. Regenerated from the source. |
+| `index.html` | The standalone, self-contained build — works offline, share/open anywhere. Regenerated from the source. |
 
-> Edit `Hook Guide.dc.html`, never `Hook Guide.html` — the standalone file is a compiled bundle. After changing the source, re-export to refresh the standalone version.
 
 ---
 
 ## How to use it
 
-1. **Open** `Hook Guide.html` in any browser (no internet needed).
+1. **Open** `index.html` in any browser (no internet needed).
 2. **Pick your level** (top right): Beginner → Intermediate → Advanced. Higher levels unlock more sections and depth.
 3. **Toggle dark / light** with the sun/moon button. Dark is the default.
 4. **Navigate** with the left sidebar. Sidebar numbering is sequential and re-counts automatically as sections unlock per level.
@@ -65,13 +63,11 @@ Resetting is available within the relevant sections.
 
 ## Editing the source
 
-`Hook Guide.dc.html` is a single self-contained component:
+`index.html` is a single self-contained component:
 
 - **Content** (hook types, formulas, platforms, workflow defaults, quiz) lives in the logic class as plain data arrays — easy to edit, add to, or reword.
 - **Theme** is driven by CSS custom properties at the top of the file. Two palettes: dark (default) and light. The accent is purple (`#9F86FF` dark / `#6D45C9` light).
 - **Tweaks** exposed: default theme, default level, and whether example lines show.
-
-After editing, re-export the standalone `Hook Guide.html` to share the updated version.
 
 ---
 
